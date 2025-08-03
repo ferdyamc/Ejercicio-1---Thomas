@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header, nav{
+    width: 100vw;
+    height: 60px;
+}
+
+nav{
+    background: #2a5dab;
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav > ul{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    min-width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #595959;
+}
+hr{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+p{
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+    color: rgb(44, 44, 44);
+}
+#imagen-fondo{
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
